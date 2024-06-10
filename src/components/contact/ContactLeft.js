@@ -1,6 +1,7 @@
-import React from 'react'
+import React from "react";
 import { FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa";
 import { contactImg } from "../../assets/index";
+import { Link } from "react-scroll";
 
 const ContactLeft = () => {
   return (
@@ -28,19 +29,46 @@ const ContactLeft = () => {
       <div className="flex flex-col gap-4">
         <h2 className="text-base uppercase font-titleFont mb-4">Find me in</h2>
         <div className="flex gap-4">
-          <span className="bannerIcon">
-            <FaFacebookF />
-          </span>
-          <span className="bannerIcon">
-            <FaTwitter />
-          </span>
-          <span className="bannerIcon">
-            <FaLinkedinIn />
-          </span>
+          <Link
+            activeClass="active"
+            to="#"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
+          >
+            <span className="bannerIcon">
+              <FaFacebookF />
+            </span>
+          </Link>
+          <Link
+            activeClass="active"
+            to="#"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
+          >
+            <span className="bannerIcon">
+              <FaTwitter />
+            </span>
+          </Link>
+          <Link
+            activeClass="active"
+            to="#"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
+          >
+            <span className="bannerIcon">
+              <FaLinkedinIn />
+            </span>
+          </Link>
         </div>
       </div>
     </div>
   );
-}
+};
 
-export default ContactLeft
+export default ContactLeft;

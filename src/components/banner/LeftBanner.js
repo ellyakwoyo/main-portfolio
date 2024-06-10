@@ -1,12 +1,23 @@
 import React from "react";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
-import { FaFacebookF, FaTwitter,FaVuejs, FaLinkedinIn, FaReact, FaLaravel } from "react-icons/fa";
+import {
+  FaFacebookF,
+  FaTwitter,
+  FaVuejs,
+  FaLinkedinIn,
+  FaReact,
+  FaLaravel,
+} from "react-icons/fa";
 import { SiPhp } from "react-icons/si";
-
+import { Link } from "react-scroll";
 
 const LeftBanner = () => {
   const [text] = useTypewriter({
-    words: ["Professional Software Engineer.", "Full Stack Developer.", "Value provider."],
+    words: [
+      "Professional Software Engineer.",
+      "Full Stack Developer.",
+      "Value provider.",
+    ],
     loop: true,
     typeSpeed: 20,
     deleteSpeed: 10,
@@ -40,15 +51,42 @@ const LeftBanner = () => {
             Find me in
           </h2>
           <div className="flex gap-4">
-            <span className="bannerIcon">
-              <FaFacebookF />
-            </span>
-            <span className="bannerIcon">
-              <FaTwitter />
-            </span>
-            <span className="bannerIcon">
-              <FaLinkedinIn />
-            </span>
+            <Link
+              activeClass="active"
+              to="#"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+            >
+              <span className="bannerIcon">
+                <FaFacebookF />
+              </span>
+            </Link>
+            <Link
+              activeClass="active"
+              to="#"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+            >
+              <span className="bannerIcon">
+                <FaTwitter />
+              </span>
+            </Link>
+            <Link
+              activeClass="active"
+              to="#"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+            >
+              <span className="bannerIcon">
+                <FaLinkedinIn />
+              </span>
+            </Link>
           </div>
         </div>
         <div>
@@ -56,7 +94,7 @@ const LeftBanner = () => {
             BEST SKILLED ON
           </h2>
           <div className="flex gap-4">
-          <span className="bannerIcon">
+            <span className="bannerIcon">
               <SiPhp />
             </span>
             <span className="bannerIcon">
