@@ -45,21 +45,27 @@ const Education = () => {
         </div>
         <div className="mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
-            title="Sr. Software Engineer"
-            subTitle="Google Out Tech - (2017 - Present)"
-            result="USA"
+            title="Software Engineer"
+            subTitle="Software Technologies Limited - (2023 - Present)"
+            result="Nairobi - Kenya"
             des="Google's hiring process is an important part of our culture. Googlers care deeply about their teams and the people who make them up."
           />
           <ResumeCard
             title="Web Developer & Trainer"
-            subTitle="Apple Developer Team - (2012 - 2016)"
-            result="MALAYSIA"
+            subTitle="Course Hero & Writerbay - (2019 - Present)"
+            result="ONLINE"
             des="A popular destination with a growing number of highly qualified homegrown graduates, it's true that securing a role in Malaysia isn't easy."
           />
           <ResumeCard
-            title="Front-end Developer"
-            subTitle="Nike - (2020 - 2011)"
-            result="Oman"
+            title="Technical Support"
+            subTitle="Kenbright & Flag42 - (2023 - 2023)"
+            result="Online"
+            des="The Oman economy has grown strongly over recent years, having transformed itself from a producer and innovation-based economy."
+          />
+                    <ResumeCard
+            title="Records Clerk"
+            subTitle="National Hospital Insurance Fund - (2022 - 2022)"
+            result="Nairobi - Kenya"
             des="The Oman economy has grown strongly over recent years, having transformed itself from a producer and innovation-based economy."
           />
         </div>

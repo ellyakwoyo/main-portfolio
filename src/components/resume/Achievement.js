@@ -11,24 +11,30 @@ const Achievement = () => {
     >
       <div>
         <div className="py-6 lgl:py-12 font-titleFont flex flex-col gap-4">
-          <p className="text-sm text-designColor tracking-[4px]">2007 - 2010</p>
+          <p className="text-sm text-designColor tracking-[4px]">2019 - Present</p>
           <h2 className="text-3xl md:text-4xl font-bold">Company Experience</h2>
         </div>
         <div className="mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
-            title="Lorem ipsum dolor sit amet."
+            title="Company Values."
             subTitle="Lorem ipsum dolor sit amet alternative."
             result="Success"
             des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora itaque accusamus corporis dolor debitis natus sapiente, voluptates possimus minima totam!"
           />
           <ResumeCard
-            title="Lorem ipsum dolor sit amet."
+            title="Business Aligned Solution"
             subTitle="Lorem ipsum dolor sit amet alternative."
             result="Success"
             des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora itaque accusamus corporis dolor debitis natus sapiente, voluptates possimus minima totam!"
           />
           <ResumeCard
-            title="Lorem ipsum dolor sit amet."
+            title="Company Family."
+            subTitle="Lorem ipsum dolor sit amet alternative."
+            result="Success"
+            des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora itaque accusamus corporis dolor debitis natus sapiente, voluptates possimus minima totam!"
+          />
+          <ResumeCard
+            title="Rules Comes First."
             subTitle="Lorem ipsum dolor sit amet alternative."
             result="Success"
             des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora itaque accusamus corporis dolor debitis natus sapiente, voluptates possimus minima totam!"
@@ -37,24 +43,30 @@ const Achievement = () => {
       </div>
       <div>
         <div className="py-6 lgl:py-12 font-titleFont flex flex-col gap-4">
-          <p className="text-sm text-designColor tracking-[4px]">2007 - 2010</p>
+          <p className="text-sm text-designColor tracking-[4px]">2019 - Present</p>
           <h2 className="text-3xl md:text-4xl font-bold">Job Experience</h2>
         </div>
         <div className="mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
-            title="Lorem ipsum dolor sit amet."
+            title="Work Ethics."
             subTitle="Lorem ipsum dolor sit amet alternative."
             result="Success"
             des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora itaque accusamus corporis dolor debitis natus sapiente, voluptates possimus minima totam!"
           />
           <ResumeCard
-            title="Lorem ipsum dolor sit amet."
+            title="Self Management."
             subTitle="Lorem ipsum dolor sit amet alternative."
             result="Success"
             des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora itaque accusamus corporis dolor debitis natus sapiente, voluptates possimus minima totam!"
           />
           <ResumeCard
-            title="Lorem ipsum dolor sit amet."
+            title="Good Team Player."
+            subTitle="Lorem ipsum dolor sit amet alternative."
+            result="Success"
+            des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora itaque accusamus corporis dolor debitis natus sapiente, voluptates possimus minima totam!"
+          />
+          <ResumeCard
+            title="Problem Solver."
             subTitle="Lorem ipsum dolor sit amet alternative."
             result="Success"
             des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora itaque accusamus corporis dolor debitis natus sapiente, voluptates possimus minima totam!"
