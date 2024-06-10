@@ -5,7 +5,7 @@ import { SiTailwindcss, SiFigma, SiNextdotjs } from "react-icons/si";
 
 const LeftBanner = () => {
   const [text] = useTypewriter({
-    words: ["Professional Coder.", "Full Stack Developer.", "UI Designer."],
+    words: ["Professional Software Engineer.", "Full Stack Developer.", "Value provider."],
     loop: true,
     typeSpeed: 20,
     deleteSpeed: 10,

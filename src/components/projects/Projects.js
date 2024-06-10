@@ -1,7 +1,7 @@
-import React from 'react'
-import Title from '../layouts/Title'
+import React from "react";
+import Title from "../layouts/Title";
 import { projectOne, projectTwo, projectThree } from "../../assets/index";
-import ProjectsCard from './ProjectsCard';
+import ProjectsCard from "./ProjectsCard";
 
 const Projects = () => {
   return (
@@ -10,51 +10,66 @@ const Projects = () => {
       className="w-full py-20 border-b-[1px] border-b-black"
     >
       <div className="flex justify-center items-center text-center">
-        <Title
-          title="VISIT MY PORTFOLIO AND KEEP YOUR FEEDBACK"
-          des="My Projects"
-        />
+        <Title title="VISIT MY PORTFOLIO AND ENJOY MY WORK" des="My Projects" />
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14">
         <ProjectsCard
-          title="SOCIAL MEDIA CLONE"
+          title="E-BOARD"
           des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
               Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
           src={projectOne}
         />
         <ProjectsCard
-          title="E-commerce Website"
+          title="E-HRMS"
           des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
               Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
           src={projectTwo}
         />
         <ProjectsCard
-          title="Chatting App"
+          title="E-PARLIAMENT"
           des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
               Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
           src={projectThree}
         />
         <ProjectsCard
-          title="SOCIAL MEDIA CLONE"
+          title="E-COUNTY"
           des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
               Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
           src={projectThree}
         />
         <ProjectsCard
-          title="E-commerce Website"
+          title="DOCUMENT SEARCH WITH NUCLIA AI"
+          des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
+          src={projectTwo}
+        />
+        <ProjectsCard
+          title="NISHANNECT"
+          des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
+          src={projectThree}
+        />
+        <ProjectsCard
+          title="KENBRIGHT"
           des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
               Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
           src={projectOne}
         />
         <ProjectsCard
-          title="Chatting App"
+          title="LAKE OIL"
           des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
               Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-          src={projectTwo}
+          src={projectOne}
+        />
+        <ProjectsCard
+          title="IST"
+          des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
+          src={projectOne}
         />
       </div>
     </section>
   );
-}
+};
 
-export default Projects
+export default Projects;
